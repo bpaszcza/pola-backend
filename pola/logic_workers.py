@@ -4,7 +4,7 @@ from django.conf import settings
 from django.core.exceptions import ObjectDoesNotExist
 from django.db import transaction
 from django.utils import timezone
-from produkty_w_sieci_api import (
+from pola.produkty_w_sieci_api import (
     Client,
     ConnectionError,
     is_code_supported_by_gs1_api,
